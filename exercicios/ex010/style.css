@@ -1,0 +1,29 @@
+body{
+    background-color: #0c6689;
+    font: normal lighter 16px 'JetBrains Mono', monospace;
+}
+
+h1{
+    color: #08394d;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: #62d3ff;
+    color: white
+}
+
+h2{
+    color: #8aa1ab;
+}
+
+.Titulo{
+    text-align: center;
+    background-color: #3810bb;
+    color: black;
+    
+}
+
+.Destaque{
+    color:azure
+}

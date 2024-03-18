@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Jetbrains Mono";
+    background: rgb(6,19,51);
+    background: linear-gradient(90deg, rgba(6,19,51,1) 0%, rgba(6,10,40,1) 50%, rgba(6,5,34,1) 100%);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: #1313b4;
+    padding-top:20px;
+}
+
+.titulo{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2px;
+    font-size: 20px;
+    color:aliceblue;
+}
+
+.icones{
+    display:flex;
+    align-self: flex-start;
+    list-style: none;
+    gap: 8%;
+    width: 25%;
+    background-color: #1313b4;
+    color:aliceblue;
+}
+/* O Cara é um monstro */
+
+.titulo2 h2{
+    font-size: 30px;
+    color: black;
+}
+
+.titulo2{
+    margin-top: 10px;
+}
+
+h2{
+    color:aliceblue;
+    background-color: #1313b4;
+    width: fit-content;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+main{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: aliceblue;
+}
+
+.extras{
+    display: flex;
+    flex-direction: column;
+    background-color:#4747fe;
+    color: white;
+    padding: 5%;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+.tituloextra{
+    color:white;
+    background-color: #1434b6;
+    display: flex;
+    width: 100%;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.lista2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color:rgb(0, 0, 0);
+    list-style: none;
+    opacity: 0.85;
+}
+    
+footer{
+    background-color: #1313b4;
+    color:white;
+    width: 100%;
+    
+}
+

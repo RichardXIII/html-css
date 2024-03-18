@@ -1,0 +1,18 @@
+body{
+    font-family:"JetBrains Mono";
+}
+
+h1{
+    background-color: brown;
+    height: 50px;
+    width: 80px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: black;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+

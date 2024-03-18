@@ -1,0 +1,52 @@
+body{
+    font-family: "JetBrains Mono";
+    background-image: url('https://geekdama.com.br/wp-content/uploads/2023/08/one-piece-live-action-den-den-mushi-720x360.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+
+.conteudo{
+    background-color: #ffffff;
+    padding: 5px 5px 5px 5px;
+    margin: auto;
+    width: 50%;
+    
+}
+
+header{
+    font-size: 30px;
+    background-color: brown;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+main{
+    background-color: #c8b16d;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    
+}
+
+footer{
+    background-color: brown;
+    color:#ffffff;
+    text-align: center;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.657);
+}
+
+footer > p{
+    padding: 30px;
+}
+
+.bola{
+    height: 100px;
+    width: 100px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}

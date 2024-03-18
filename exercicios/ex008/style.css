@@ -1,0 +1,27 @@
+main{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.589);
+    width: 50%;
+    padding: 10px;
+    margin:auto;
+    background-color: white;
+}
+
+h1{
+    font: normal bolder 3em 'JetBrains Mono', monospace;
+    background-color: rgb(255, 255, 255);
+}
+
+h2{
+    font: bold 2em 'JetBrains Mono';
+}
+
+body{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+   
+}
+
+p{
+    align-items: justify;
+    font: normal 1em 'JetBrains Mono', monospace;
+}

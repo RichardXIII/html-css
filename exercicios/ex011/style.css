@@ -1,0 +1,46 @@
+body{
+    font-family:"JetBrains Mono";
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p{
+    display: block;
+    color:aqua;
+    background-color: black;
+    width: fit-content;
+}
+
+div:hover{
+    color:blue;
+}
+
+a{
+    color:blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+
+a:active{
+    color:#737392ba;
+}
+
+.especial{
+    background-color: #0033ff4c;
+    width: fit-content;
+}
+
+.especial::before{
+    content: '[Link]';
+}
+
+.especial::after{
+    content: '[Link]';
+}
